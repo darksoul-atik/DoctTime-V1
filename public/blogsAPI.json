@@ -1,0 +1,27 @@
+[
+  {
+    "question": "What is useState and how does it work in React?",
+    "answer": "useState is a way to create a variable in a component that can change. It gives you two things: the current value, and a function to update it. When you use the update function, the component shows the new value. It helps you make your UI change when something happens.",
+    "addedDate": "2025-05-15"
+  },
+  {
+    "question": "What is the purpose of useEffect in React?",
+    "answer": "useEffect lets you do something after the component shows up on the screen. For example, you can fetch data from an API, change the title of the page, or set up a timer. You can also clean things up when the component goes away.",
+    "addedDate": "2025-05-15"
+  },
+  {
+    "question": "What is a custom hook in React and when should you use one?",
+    "answer": "A custom hook is like your own version of a React hook. You create it when you want to reuse some logic in different components. It starts with the word 'use'. It’s useful when you have code that you use in many places, like fetching data or handling forms.",
+    "addedDate": "2025-05-15"
+  },
+  {
+    "question": "Difference between controlled and uncontrolled components? Which one is better?",
+    "answer": "Controlled components are connected to React state, so you control what’s in the input by using state. Uncontrolled components don’t use React state, they get values directly from the DOM. Controlled ones are better when you need full control, like in forms with validation. But uncontrolled ones are easier for simple cases.",
+    "addedDate": "2025-05-15"
+  },
+  {
+    "question": "Tell us something about useFormStatus() (explore and explain)",
+    "answer": "useFormStatus is a hook that helps you know what's going on with a form. It tells you if the form is submitting or not. It’s useful when you want to show a loading message or disable the submit button while the form is working. It works best with React Server Components, like in Next.js App Router.",
+    "addedDate": "2025-05-15"
+  }
+]
